@@ -41,3 +41,5 @@ init_num = get_user_input()
 final_stop_time = stopping_time_calculator(init_num)
 
 print("The total stopping time of", init_num, "is:", final_stop_time)
+
+# comment solely to test Git
