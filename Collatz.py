@@ -1,5 +1,4 @@
-# Attempt at demonstrating the Collatz Conjecture that I saw on a YouTube video.
-# https://www.youtube.com/watch?v=094y1Z2wpJg
+# Demonstrating the Collatz Conjecture
 # Start with any number
 # If the number is odd, multiply by 3 and add 1
 # If the number is even, divide by 2
@@ -41,5 +40,3 @@ init_num = get_user_input()
 final_stop_time = stopping_time_calculator(init_num)
 
 print("The total stopping time of", init_num, "is:", final_stop_time)
-
-# comment solely to test Git
